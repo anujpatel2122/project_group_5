@@ -3,8 +3,8 @@ from flask import Flask, render_template
 import sqlite3
 import pathlib 
 
-base_path = pathlib.Path(r"C:\Users\anujp\OneDrive\Desktop\Python Project")
-db_name = "internet_database.db"
+base_path = pathlib.Path(r"C:\Users\anujp\OneDrive\Documents\GitHub\project_group_5")
+db_name = "salaries_database.db"
 db_path = base_path / db_name
 print(db_path)
 
@@ -22,7 +22,7 @@ def about():
 def data():
     con = sqlite3.connect(db_path)
     cursor = con.cursor()
-    students = cursor.execute("SELECT * FROM internet_users").fetchall()
+    students = cursor.execute("SELECT * FROM salaries_users").fetchall()
     con.close()
 
     return render_template("data_table.html", students=students)

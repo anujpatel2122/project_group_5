@@ -45,7 +45,7 @@
 <body>
     <h1>About the Dataset</h1>
     <p>
-        This dataset provides information about the number of internet users in various countries and regions over multiple years.
+        This dataset provides information about work experience, job details, salaries, and company information.
     </p>
     <p>
         The dataset includes the following columns:
@@ -55,29 +55,70 @@
             <tr>
                 <th>Column</th>
                 <th>Description</th>
+                <th>Data Type</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Entity</td>
-                <td>The name of the country or region.</td>
+                <td>work_year</td>
+                <td>The year of work experience</td>
+                <td>Integer</td>
             </tr>
             <tr>
-                <td>Code</td>
-                <td>The ISO 3166-1 alpha-3 country code.</td>
+                <td>experience_level</td>
+                <td>The level of experience (e.g., entry-level, mid-level, senior-level)</td>
+                <td>String</td>
             </tr>
             <tr>
-                <td>Year</td>
-                <td>The year for which the data is recorded.</td>
+                <td>employment_type</td>
+                <td>Type of employment (e.g., full-time, part-time, contract)</td>
+                <td>String</td>
             </tr>
             <tr>
-                <td>Number of Internet users</td>
-                <td>The total number of internet users in the respective country or region for the given year.</td>
+                <td>job_title</td>
+                <td>The job title of the employee</td>
+                <td>String</td>
+            </tr>
+            <tr>
+                <td>salary</td>
+                <td>The salary of the employee</td>
+                <td>Numeric</td>
+            </tr>
+            <tr>
+                <td>salary_currency</td>
+                <td>The currency in which the salary is provided</td>
+                <td>String</td>
+            </tr>
+            <tr>
+                <td>salary_in_usd</td>
+                <td>The salary converted to USD (if applicable)</td>
+                <td>Numeric</td>
+            </tr>
+            <tr>
+                <td>employee_residence</td>
+                <td>The residence location of the employee</td>
+                <td>String</td>
+            </tr>
+            <tr>
+                <td>remote_ratio</td>
+                <td>Ratio of remote work offered by the employer</td>
+                <td>Decimal</td>
+            </tr>
+            <tr>
+                <td>company_location</td>
+                <td>Location of the employer's company</td>
+                <td>String</td>
+            </tr>
+            <tr>
+                <td>company_size</td>
+                <td>Size of the employer's company</td>
+                <td>String</td>
             </tr>
         </tbody>
     </table>
     <p>
-        You can access the dataset on Kaggle by following this link: <a href="https://www.kaggle.com/datasets/willianoliveiragibin/time-the-internet" target="_blank">Time on the Internet Dataset</a>
+        You can download the dataset from the following location: <br>
+        <a href="https://www.kaggle.com/datasets/sanyacodes/salaries-in-data-science" target="_blank">https://www.kaggle.com/datasets/sanyacodes/salaries-in-data-science</a>
     </p>
 </body>
 </html>
