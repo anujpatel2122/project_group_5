@@ -1,6 +1,6 @@
-# Internet Users Dataset
+# Salaries Dataset
 
-This dataset provides information about the number of internet users in various countries and regions over multiple years.
+This dataset provides information about the expirence level, job titles, salary, employee reisdence, employment type, salary currency,salary in usd of the data scientist
 
 ## Dataset Description
 
@@ -31,7 +31,7 @@ This dataset is provided under the [CC0: Public Domain License](https://creative
 
 ## About
 
-This dataset was compiled by [Willian Oliveira Gibin](https://www.kaggle.com/willianoliveiragibin) and made available on Kaggle.
+This dataset was compiled by [Sanya codes](https://www.kaggle.com/sanyacodes) and made available on Kaggle.
 
 For any questions or inquiries about the dataset, please refer to the Kaggle dataset page.
 
